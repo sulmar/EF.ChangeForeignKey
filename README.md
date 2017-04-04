@@ -30,5 +30,5 @@ W migracji możemy w ForeignKey możemy podać własną nazwę relacji.
 
                 .Index(t => t.Client_ClientId);
                 
-                ~~~
+~~~
 
