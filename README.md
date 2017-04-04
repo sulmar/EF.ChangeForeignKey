@@ -1,5 +1,6 @@
-# EF.ChangeForeignKey
-Przykład zmiany nazwy klucza obcego
+# Przykład zmiany nazwy klucza obcego
+
+## Za pomocą migracji
 
 W migracji możemy w ForeignKey możemy podać własną nazwę relacji.
 
@@ -30,3 +31,4 @@ W migracji możemy w ForeignKey możemy podać własną nazwę relacji.
                 .Index(t => t.Client_ClientId);
                 
                 ~~~
+
